@@ -36,9 +36,11 @@
         <server name="SESSION_DRIVER" value="array"/>
 
         <!-- variables needed to run feature tests -->
-        <server name="AWS_COGNITO_REGION" value="SOME_REGION"/>
-        <server name="AWS_COGNITO_USER_POOL_ID" value="SOME_POOL_ID"/>
-        <server name="AWS_COGNITO_CLIENT_ID" value="SOME_CLIENT_ID"/>
+        <server name="AWS_COGNITO_REGION" value="eu-west-2"/>
+        <server name="AWS_COGNITO_USER_POOL_ID" value="eu-west-2_61mmBW756"/>
+        <server name="AWS_COGNITO_CLIENT_ID" value="7n9t2ueijff9vp7u2hvnuj6pca"/>
+        <server name="AWS_COGNITO_TEST_TOKEN" value="eyJraWQiOiJcL0taemZGUUxIQmtPN2lzVDU4ZllCeTJpTzQ0YmwrK00wN2Ixa0ZyMElZZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJlZmMzYWZkYS1iMmRhLTQxOGEtYjEyOC0zNDRiNjQzMTc4ZTMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMi5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTJfNjFtbUJXNzU2IiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjp0cnVlLCJjb2duaXRvOnVzZXJuYW1lIjoiMmUyYWNlOTctZDU3Mi00NzFhLWJlY2QtNDE1ZDYyNGVkYzVlIiwiZ2l2ZW5fbmFtZSI6IlByb2YuIEpvc2h1YWggQmF1Y2ggUGhEIiwiY3VzdG9tOnB3X3VwZGF0ZWRfYXQiOiIyMDIyLTA5LTIzIDE3OjQyOjI1IFVUQyIsIm9yaWdpbl9qdGkiOiI5OGQ3MmY4NS1mMDY2LTQxZjgtYTcxYS0wMTY3YmRhNjliZDQiLCJhdWQiOiIyZjVpb3E5MzdkM2FndWkzcDRzaXJvY2xsMCIsImV2ZW50X2lkIjoiODU4ZTg4MDUtMmUwMy00NDg1LTliNTYtZjIwMGQ1ZTQxMDFmIiwidXBkYXRlZF9hdCI6MTYzNjI3NTEwNCwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NzcwNTI1MzksInBob25lX251bWJlciI6IisxMDAwMDAwMDAwMCIsImV4cCI6MTY3NzA4MTAxNSwiaWF0IjoxNjc3MDc3NDE1LCJmYW1pbHlfbmFtZSI6IkNhcm1lbGEgUnVub2xmc3NvbiBQaEQiLCJqdGkiOiI3ZjA2NWRlYy1lYmI0LTQ4ZjEtYTZiMi1jZmE4MTgzMTRlNGIiLCJlbWFpbCI6ImFkbWluQGNvbXBhc3NwbHVzc2Nob29sLmVkdSJ9.k6rmPpJMGJNKOJfgRdM_uLBQkVwv5jVnSaBJwM-EoVl0WF4Pk8dzQyBzKCQAVKT094A7W5rRvjFCbbhyoTdGt5ivKaBj-qhleIxU2RHuoIh_ZHacj0FfYODzN8JDe2VRdsv2sGevV78ZUQL0rZb4zHjAlzAwlO7HjS6VLLyLdkW_tqWsaTZqKmNU15U2dLz46nJTsSGQg8cFbgjuRjDsvRxOFLGg84Ad1iYnwgX2Uy8lf6xC-TzkWInqcnVtfjVqH8C3magcLF5OO7Cg1CFcGGcwpJnXknPiY93GBGveRbUOjtwp51ulVsR2ZgOYWAJ7Ybf3c0p_xMNYRJdv1ktcxw"/>
+        <server name="AWS_COGNITO_TEST_USERNAME" value="username"/>
     </php>
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>

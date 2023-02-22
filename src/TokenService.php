@@ -5,6 +5,7 @@ use BenBjurstrom\CognitoGuard\Exceptions\InvalidTokenException;
 use Firebase\JWT\BeforeValidException;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 use Exception;
 use Firebase\JWT\SignatureInvalidException;
 use Illuminate\Http\Request;
@@ -55,7 +56,7 @@ class TokenService
         $pem = $jwksService->getPemFromKid($kid);
 
         try{
-            $payload = JWT::decode($jwt, $pem, array('RS256'));
+            $payload = JWT::decode($jwt, new Key($pem, 'RS256'));
         }catch(ExpiredException $e){
             throw new InvalidTokenException($e->getMessage());
         }
