@@ -35,7 +35,7 @@
         "illuminate/contracts": "^8",
         "illuminate/http": "^8.46",
         "illuminate/support": "^8",
-        "firebase/php-jwt": "^6.4"
+        "firebase/php-jwt": "6.5.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
